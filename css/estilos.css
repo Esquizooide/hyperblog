@@ -1,4 +1,14 @@
 body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    color: deeppink;
+}
+
+#container {
+    text-align: center;
+    padding: 1em;
+    width: 50%;
+    margin: auto;
+    background-color: #010;
+    border: deeppink 4px solid;
 }
