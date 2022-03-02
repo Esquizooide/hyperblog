@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -6,9 +10,27 @@ body {
 
 #container {
     text-align: left;
-    padding: 1em;
     width: 50%;
     margin: auto;
     background-color: #010;
     border: deeppink 4px solid;
+}
+
+#cabecera {
+    background-color: deeppink;
+    color: white;
+    width: 100%;
+    padding: 0.5em 1em;
+    font-size: 1.75em;
+    font-weight: 700;
+}
+
+#tagline {
+    font-weight: 200;
+    padding-left: 1em;
+    font-size: .85em;
+}
+
+#post {
+    padding: .5em 2em;
 }
